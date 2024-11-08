@@ -2,12 +2,12 @@ import React from 'react';
 
 import ReactDOM from 'react-dom/client';
 
-import { helloGROWI } from './Hello';
+import { plugin } from './tableGrid';
 
 const href = 'https://growi.org/';
 
-const HelloGROWI = helloGROWI(() => <a href={href}>Hello, GROWI</a>);
-
+// const HelloGROWI = helloGROWI(() => <a href={href}>Hello, GROWI</a>);
+/*
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <HelloGROWI
@@ -15,3 +15,4 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     >Hello, GROWI</HelloGROWI>
   </React.StrictMode>,
 );
+*/

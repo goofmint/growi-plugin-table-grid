@@ -1,54 +1,23 @@
-# GROIW Plugin template for script
+# GROIW Plugin Table Grid
 
-This is a template for creating a GROWI script plugin.
+This is a GROWI plugin that provides a table grid feature.
 
 ## Usage
 
-### Download or folk this repository.
+### Install the plugin
 
 ```bash
-git clone git@github.com:goofmint/growi-plugin-script-template.git
+https://github.com/goofmint/growi-plugin-table-grid
 ```
 
-### Change the name of the plugin in package.json.
+### Write markdown table
 
-```js
-{
-  "name": "growi-plugin-script-template",  // Change this name
-  "version": "1.0.0",
-  "description": "GROWI plugin template for script", // Change this description
-	:
-}
+```markdown
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1-1 | Cell 1-2 | Cell 1-3 |
+| Cell 2-1 | Cell 2-2 | Cell 2-3 |
 ```
-
-### Edit those files
-
-Of course, you can add or remove files as you like.
-
-- client-entry.tsx
-- src/Hello.tsx
-- src/Hello.css
-- src/Demo.tsx
-
-### Preview the plugin
-
-```bash
-yarn dev
-```
-
-### Build the plugin
-
-```bash
-yarn build
-```
-
-## Publish the plugin at GROWI
-
-Add a topic `growi-plugin` on your GitHub repository.
-
-Then, you can see your plugin on the GROWI plugin list page below.
-
-https://growi.org/plugins
 
 ## License
 
