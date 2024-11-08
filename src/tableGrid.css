@@ -2,12 +2,14 @@
   .gridjs-sort {
     filter: invert(100%);
   }
-  .gridjs-input {
-    color: var(--bs-body-color) !important;
-    background-color: var(--bs-body-bg) !important;
-  }
-  .gridjs-pages button {
-    color: var(--bs-body-color) !important;
-    background-color: var(--bs-body-bg) !important;
-  }
+}
+
+.gridjs-input {
+  color: var(--bs-body-color) !important;
+  background-color: var(--bs-body-bg) !important;
+}
+
+.gridjs-pages button {
+  color: var(--bs-body-color) !important;
+  background-color: var(--bs-body-bg) !important;
 }
